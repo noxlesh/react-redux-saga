@@ -11,6 +11,7 @@ import "./index.css";
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducers, applyMiddleware(sagaMiddleware));
 sagaMiddleware.run(rootSaga);
+
 ReactDOM.render(
   <Provider store={store}>
     <h1>Counter:</h1>
