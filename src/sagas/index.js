@@ -1,5 +1,5 @@
 import { all, put, takeEvery } from "redux-saga/effects";
-import actions from "./actions";
+import actions from "../actions";
 
 function* incrementSaga() {
   console.log("incrementSaga was reached");
