@@ -1,0 +1,1 @@
+**React Redux Saga** scaffolding with a minimal counter example.
